@@ -33,6 +33,13 @@ body {
   
 
 /* Custom classes */
+.heading {
+    font-size: 24px;
+    color: #fff;
+    padding-top: 20px;
+    padding-left: 32px;
+}
+
 .btn-white {
     font-size: 14px;
     padding: 7px 14px;
@@ -171,17 +178,27 @@ header {
 }
 
 /* Movie Card */
+.movie-section {
+    padding: 0 40px;
+}
+
 .movie-cards {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 20px;
-    margin-bottom: 50px;
+    overflow-x: scroll;
+    padding: 20px 30px;
+}
+
+.movie-card {
+    border-radius: 7px;
 }
 
 .movie-card img {
     width: 220px;
     cursor: pointer;
+    border-radius: 7px;
 }
 
 .movie-card:hover {
@@ -191,8 +208,20 @@ header {
     border: 5px solid #fff;
 }
 
-.continue {
-    font-size: 30px;
-    color: #fff;
-    padding: 15px 60px;
+/* Hero Section */
+.hero {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero img {
+    height: 290px;
+    width: 1200px;
+}
+
+/* Footer Section */
+footer {
+    margin-top: 50px;
 }
