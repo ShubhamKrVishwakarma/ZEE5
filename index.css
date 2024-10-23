@@ -275,4 +275,6 @@ header {
 /* Footer Section */
 footer {
     margin-top: 50px;
+    color: #fff;
+    border: 2px solid red;
 }
