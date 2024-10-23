@@ -259,6 +259,19 @@ header {
     border-radius: 7px;
 }
 
+/* Breaking News Rounded Card */
+.movie-card-round img {
+    width: 120px;
+    border-radius: 50%;
+}
+
+.movie-card-round h4 {
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    margin-top: 10px;
+}
+
 /* Hero Section */
 .hero {
     padding: 40px;
