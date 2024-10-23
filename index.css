@@ -122,7 +122,7 @@ header {
 }
 
 .nav-bar a:hover {
-    text-decoration: underline;
+    border-bottom: 2px solid #fff;
 }
 
 /* Header Right */
@@ -276,5 +276,27 @@ header {
 footer {
     margin-top: 50px;
     color: #fff;
-    border: 2px solid red;
+    padding: 20px 80px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-top-left, .footer-top-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.social-links {
+    color: #fff;
+    background-color: #1a0c27;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
 }
