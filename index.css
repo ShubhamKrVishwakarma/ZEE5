@@ -119,6 +119,8 @@ header {
 .nav-bar a {
     color: #fff;
     text-decoration: none;
+    padding-bottom: 5px;
+    transition: all ease-in-out;
 }
 
 .nav-bar a:hover {
