@@ -193,19 +193,70 @@ header {
 
 .movie-card {
     border-radius: 7px;
+    position: relative;
+}
+
+.movie-card:hover {
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+    transform: scale(1.1);
+    border: 7px solid #fff;
+}
+
+.movie-card:hover .movie-card-hover {
+    display: block;
+    pointer-events: all;
+}
+
+.movie-card-hover {
+    background-color: #fff;
+    padding: 20px 10px;
+    position: absolute;
+    bottom: -1px;
+    width: 100%;
+    display: none;
+    pointer-events: none;
+    transition: 1s all ease-in;
+}
+
+.movie-card-heading {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.btn-card {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #0f0617;
+    outline: none;
+    border-radius: 4px;
+    padding: 4px 7px;
+    font-size: 12px;
+    transition: 0.5s all ease-in;
+}
+
+.btn-card:hover {
+    color: #fff;
+    background-color: #8230c6;
+    border: 1px solid #8230c6;
+}
+
+.share-btn {
+    background-color: #fff;
+    border: none;
+    outline: none;
+    padding: 4px 8px;
+    font-size: 13px;
+}
+
+.share-btn:hover {
+    color: #8230c6;
 }
 
 .movie-card img {
     width: 220px;
     cursor: pointer;
     border-radius: 7px;
-}
-
-.movie-card:hover {
-    transform: scale(1.1);
-    transition-duration: 0.5s;
-    transition-timing-function: ease-in;
-    border: 5px solid #fff;
 }
 
 /* Hero Section */
