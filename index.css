@@ -207,7 +207,6 @@ header {
 
 .movie-card:hover .movie-card-hover {
     display: block;
-    pointer-events: all;
 }
 
 .movie-card-hover {
@@ -217,7 +216,6 @@ header {
     bottom: -1px;
     width: 100%;
     display: none;
-    pointer-events: none;
     transition: 1s all ease-in;
 }
 
