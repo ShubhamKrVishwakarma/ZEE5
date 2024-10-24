@@ -265,7 +265,8 @@ header {
 }
 
 .movie-card img {
-    width: 220px;
+    height: 360px;
+    width: 230px;
     cursor: pointer;
     border-radius: 7px;
 }
