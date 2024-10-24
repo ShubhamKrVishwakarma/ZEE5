@@ -205,18 +205,32 @@ header {
     padding: 20px 30px;
 }
 
-.movie-card {
+.movie-card, .movie-card2 {
     border-radius: 7px;
     position: relative;
     transition: 0.5s all ease-in-out;
 }
 
-.movie-card:hover {
+.movie-card img {
+    height: 360px;
+    width: 230px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.movie-card2 img {
+    height: 190px;
+    width: 320px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.movie-card:hover, .movie-card2:hover {
     transform: scale(1.12);
     border: 7px solid #fff;
 }
 
-.movie-card:hover .movie-card-hover {
+.movie-card:hover .movie-card-hover, .movie-card2:hover .movie-card-hover {
     display: block;
 }
 
@@ -262,13 +276,6 @@ header {
 
 .share-btn:hover {
     color: #8230c6;
-}
-
-.movie-card img {
-    height: 360px;
-    width: 230px;
-    cursor: pointer;
-    border-radius: 7px;
 }
 
 /*-----------------------------------*\
