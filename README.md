@@ -1,1 +1,6 @@
-You can see the live website on: https://shubhamkrvishwakarma.github.io/ZEE5/
+# ZEE5
+
+## Technologies Used ( HTML, CSS, Bootstrap )
+
+### See the Live Website here: https://shubhamkrvishwakarma.github.io/ZEE5/
+
