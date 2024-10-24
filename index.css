@@ -284,6 +284,7 @@ header {
 .movie-card-round img {
     width: 120px;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .movie-card-round h4 {
@@ -400,6 +401,6 @@ footer {
 }
 
 .footer-bottom a:hover {
-    color: #490084;
+    color: #6a17ae;
     text-decoration: underline;
 }
