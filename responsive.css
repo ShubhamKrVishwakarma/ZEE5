@@ -1,0 +1,33 @@
+
+@media screen and (max-width: 1400px) {
+    .search {
+        display: none;
+    }
+
+    .hero img {
+        height: 200px;
+        width: 100%;
+    }
+
+    footer {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .nav-bar {
+        display: none;
+    }
+
+    .footer-middle {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .hero img {
+        height: 150px;
+        width: 80%;
+    }
+    
+}
