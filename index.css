@@ -196,12 +196,11 @@ header {
 .movie-card {
     border-radius: 7px;
     position: relative;
+    transition: 0.5s all ease-in-out;
 }
 
 .movie-card:hover {
-    transition-duration: 0.5s;
-    transition-timing-function: ease-in;
-    transform: scale(1.1);
+    transform: scale(1.12);
     border: 7px solid #fff;
 }
 
@@ -318,6 +317,11 @@ footer {
     border: none;
     outline: none;
     padding: 10px 15px;
+    transition: 0.5s all ease-in-out;
+}
+
+.social-links:hover {
+    color: #8230c6;
 }
 
 /* Footer Middle */
